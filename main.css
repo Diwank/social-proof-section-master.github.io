@@ -1,0 +1,145 @@
+:root{
+--Very-Dark-Magenta: hsl(300, 43%, 22%);
+--Soft-Pink: hsl(333, 80%, 67%);
+--Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+--Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    color: var(--Very-Dark-Magenta);
+}
+
+h1{
+    text-align: center;
+    padding: 60px 30px 30px;
+}
+.heading-meta{
+    text-align: center;
+    padding: 0 20px 30px 20px;
+    color: var(--Dark-Grayish-Magenta);
+}
+.stars{
+    text-align: center;
+}
+.ratings{
+    background-color: var(--Light-Grayish-Magenta);
+    margin:20px;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+.card{
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 10px;
+    margin:20px;
+    padding: 20px;
+    
+}
+.card-meta{
+    color: var(--White); 
+}
+.verified{
+    color: var(--Soft-Pink);
+}
+.profile-photo{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.two-col{
+    display: flex;
+}
+.name-verified{
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.para{
+    color: white;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.container{
+    position: relative;
+}
+.main-heading{
+    position: absolute;
+    top:20px;
+}
+
+@media (min-width:768px){
+
+   
+    .main-heading{
+        width: 340px;
+        text-align: left;
+        margin-left: 60px;
+        font-size: 35px;
+        padding-right: 0px;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .heading-meta{
+        text-align: left;
+        width: 500px;
+        margin-left: 70px;
+        margin-top: -20px;
+    }
+    .top-desktop{
+        display: flex;
+    }
+    .stars{
+        margin-top: 80px;
+        
+    }
+    .ratings{
+        display: flex;
+        width: 600px;
+    }
+    .ratings-2{
+        margin-left: 60px;
+    }
+    .ratings-3{
+        margin-left: 100px;
+    }
+    .ratings-meta{
+        margin-left: 100px;
+    }
+    .img-star{
+        margin:5px;
+    }
+    
+   
+    .bottom-desktop{
+        display: flex;
+    }
+    .testimonials{
+        margin-left: 70px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-right: 50px;
+    }
+    .card-1{
+        margin-bottom: 55px;
+        margin-top: 0px;
+    }
+    .card-2{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .card-3{
+        margin-top: 60px;
+    }
+}
